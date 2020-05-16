@@ -7,13 +7,13 @@
 	background-repeat: repeat;
 }
 .hero_header {
-	color: #FFFFFF;
+	color: #000000;
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 4px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	/*letter-spacing: 4px;*/
 }
 .footer_column {
 	width: 100%;
