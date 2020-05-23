@@ -68,3 +68,9 @@
 	padding-bottom: 30px;
 }
 /* About Section */
+/*自己的一些布局awa*/
+#Grads_1 {
+    height: auto;
+    background-color: #007BFF; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to bottom right, #007BFF, #00A3FF);
+}
