@@ -39,7 +39,7 @@
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 }
 .hero_White {
 	color: #FFFFFF;
@@ -61,31 +61,11 @@
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
-.hero_Question {
-	color: #FFC600;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 2px;
-}
 /* Hero Section */
 .hero {
 	background-color: #E9E9E9;
 	padding-top: 30px;
 	padding-bottom: 30px;
-}
-.Small_Blue {
-	color: #007BFF;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	/*letter-spacing: 0px;*/
 }
 /* About Section */
 /*自己的一些布局awa*/
