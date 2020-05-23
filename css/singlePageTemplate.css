@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .footer_banner {
-	background-color: #B3B3B3;
+	background-color: #248EFF;
 	padding-top: 30px;
 	padding-bottom: 30PX;
 	margin-bottom: 0px;
@@ -24,10 +24,10 @@
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #717070;
+	background-color: #49A1FF;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	font-weight: lighter;
+	font-weight: bold;
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
@@ -43,6 +43,16 @@
 }
 .hero_White {
 	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+}
+.hero_Blue {
+	color: #007BFF;
 	font-weight: bold;
 	text-align: center;
 	margin-top: 0px;
