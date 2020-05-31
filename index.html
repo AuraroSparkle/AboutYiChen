@@ -14,15 +14,14 @@
 <link rel="shortcut icon" href="Pictures/icon.png">
 <!--All endding-->
 <title>亦辰的小窝·我们一起加油！</title>
-<!--The own scripts-->
+<!--信息提示框 简单吧xwx-->
 <script>
 function Notice(passenger){
 	alert(passenger);
 }
 </script>
 </head>
-
-<body>
+<body onload="checkCookie()">
 <!--开始布局标签栏-->
 <nav class="navbar navbar-expand-md bg-primary navbar-dark shadow">
 	<img width="140" src="Pictures/logo.png" alt="亦辰的小窝·我们一起加油！">
@@ -38,7 +37,7 @@ function Notice(passenger){
 				<a class="nav-link" href="#">Konw</a>
 			</li-->
 			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">更多</a>
+				<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="">更多</a>
 				<div class="dropdown-menu">
 					<a class="dropdown-item" href="Pages/Abouts/AboutYC_More.html">亦辰的更多</a>
 		  			<a class="dropdown-item" href="Pages/Abouts/AboutTheWeb.html">关于网站</a>
@@ -46,7 +45,10 @@ function Notice(passenger){
 				</div>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" onClick="Notice('制作中...让我慢慢做啊\n不着急！')"><span class="badge badge-secondary">new</span>夜间模式切换</a>
+				<a class="nav-link" onClick="Notice('制作中...让我慢慢做啊\n不着急！')" href=""><span class="badge badge-secondary">new</span>夜间模式切换</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Pages/User/Login.html"><span class="badge badge-danger">Demo</span>登录</a>
 			</li>
 		</ul>
 	</div>
@@ -118,17 +120,17 @@ function Notice(passenger){
 			<div id="video" class="container tab-pane active">
     			<h3>游戏正在开发中......&radic;</h3>
     			<p class="hero_Black">如果有任何的想法or主意<br>欢迎给我留言!<br>另外 留言板正在制作!马上就好了!!!</p>
-				<img class="img-fluid rounded" alt="亦辰awa·自画像" src="Pictures/Me.png" width="400" height="200"/>
+				<img class="img-fluid rounded shadow" alt="亦辰awa·自画像" src="Pictures/Me.png" width="400" height="200"/>
     		</div>
     		<div id="Notice" class="container tab-pane fade">
         		<h3>请注意一下几点！</h3>
         		<p class="hero_Black">我的游戏在2030年以前 只在这里发布<br>所以如果在其他的网站上找到我的游戏 请注意<br>我不会阻止你下载 但请小心!<br>游戏更新/制作完成后 会在这里发布!xwx<br>祝我好运吧!当然 我主要还是学习为主啦awa</p>
-				<img class="img-fluid rounded" alt="亦辰·我们一起加油" src="Pictures/Let's_Run.png" width="400" height="200"/>
+				<img class="img-fluid rounded shadow" alt="亦辰·我们一起加油" src="Pictures/Let's_Run.png" width="400" height="200"/>
     		</div>
 			<div id="Join" class="container tab-pane fade">
 				<h3 class="hero_Black">对游戏感兴趣?<br></h3>
 				<p class="hero_Black">欢迎加入我们! 但你必须有一定的能力.<br>比如说你需要会画画/作曲/编程等技能<br>不过没有的话也不用担心:您可以做一名测试者<br>欢迎你的加入啊 只需要找到我的QQ群就好xwx<br>1048071685</p>
-				<img class="img-fluid rounded" alt="亦辰·加入我们！" src="Pictures/JoinUs.png" width="400" height="200"/>
+				<img class="img-fluid rounded shadow" alt="亦辰·加入我们！" src="Pictures/JoinUs.png" width="400" height="200"/>
 			</div>
 			<br>
 			<div class="alert alert-success">
