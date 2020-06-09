@@ -10,17 +10,10 @@
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/All_Add.js"></script>
 <!--The shout photo of web-->
 <link rel="shortcut icon" href="Pictures/icon.png">
 <!--All endding-->
 <title>亦辰的小窝·我们一起加油！</title>
-<!--信息提示框 简单吧xwx-->
-<script>
-function Notice(passage){
-	alert(passage);
-}
-</script>
 </head>
 <body>
 <!--开始布局标签栏-->
@@ -34,9 +27,6 @@ function Notice(passage){
 			<li class="nav-item">
 				<a class="nav-link" href="https://space.bilibili.com/351227079">我的B站首页</a>
 			</li>
-			<!--li class="nav-item">
-				<a class="nav-link" href="#">Konw</a>
-			</li-->
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="">更多</a>
 				<div class="dropdown-menu">
@@ -45,9 +35,9 @@ function Notice(passage){
 		  			<a class="dropdown-item" href="Pages/Abouts/AboutWebPast.html">更新日志</a>
 				</div>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" onClick="Notice('制作中...让我慢慢做啊\n不着急！')" href=""><span class="badge badge-danger">Testing</span>夜间模式切换</a>
-			</li>
+			<!--li class="nav-item">
+				<a class="nav-link"><span class="badge badge-danger">NEW</span> 游戏制作进程</a>
+			</li-->
 		</ul>
 	</div>
 </nav>
@@ -63,7 +53,7 @@ function Notice(passage){
   <div id="accordion">
     <div class="card">
       <div class="card-header">
-        <a class="card-link Small_Blue" data-toggle="collapse" href="#collapseOne">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
           亦辰的现况
         </a>
       </div>
@@ -75,7 +65,7 @@ function Notice(passage){
     </div>
     <div class="card">
       <div class="card-header">
-        <a class="card-link Small_Blue" data-toggle="collapse" href="#collapseTwo">
+        <a class="card-link" data-toggle="collapse" href="#collapseTwo">
         关于未来&amp;打算
       </a>
       </div>
@@ -87,7 +77,7 @@ function Notice(passage){
     </div>
     <div class="card">
       <div class="card-header">
-        <span class="badge badge-primary">&hearts;</span><a class="card-link Small_Blue" data-toggle="collapse" href="#collapseThree">
+        <span class="badge badge-primary">&hearts;</span><a class="card-link" data-toggle="collapse" href="#collapseThree">
           感谢
         </a>
       </div>
@@ -113,6 +103,9 @@ function Notice(passage){
 			<li class="nav-item">
 				<a class="nav-link" data-toggle="pill" href="#Join">加入我们</a>
 			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="pill" href="#List">制作组</a>
+			</li>
 		</ul>
 		<div class="tab-content">
 			<div id="video" class="container tab-pane active">
@@ -129,6 +122,20 @@ function Notice(passage){
 				<h3 class="hero_Black">对游戏感兴趣?<br></h3>
 				<p class="hero_Black">欢迎加入我们! 但你必须有一定的能力.<br>比如说你需要会画画/作曲/编程等技能<br>不过没有的话也不用担心:您可以做一名测试者<br>欢迎你的加入啊 只需要找到我的QQ群就好xwx<br>1048071685</p>
 				<img class="img-fluid rounded shadow" alt="亦辰·加入我们！" src="Pictures/JoinUs.png" width="400" height="200"/>
+			</div>
+			<div id="List" class="container tab-pane fade">
+				<h3 class="hero_Black">以下是目前的制作组名单：<br></h3>
+				<div class="card">
+					<div class="card-header">
+						<p class="hero_Blue">程序编写</p>
+					</div>
+					<p class="hero_Black">亦辰LiChep</p>
+					<div class="card-header">
+						<p class="hero_Blue">音乐制作</p>
+					</div>
+					<p class="hero_Black">搞事先生Mr.G</p>
+				</div>
+				<img class="img-fluid rounded shadow" alt="亦辰·Logo" src="Pictures/Logo2.png" width="400" height="200"/>
 			</div>
 			<br>
 			<div class="alert alert-success">
